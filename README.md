@@ -4,7 +4,7 @@ I have used Spring boot to build the backend API. Implemented the functionality 
 
 ## Architecture
 
-I have used MVC architecture with Item and Receipt as model classes. The ReceiptController class handles the https requests and maps them to corresponding handler methods. It has two endpoints "/process" and "/{id}/points". ReceiptService class is responsible for implementing the core functionality to support the controller layer.
+I have used MVC architecture with Item and Receipt as model classes. The ReceiptController class handles the https requests and maps them to corresponding handler methods. It has two endpoints ``` /process ``` and ``` /{id}/points ```. ReceiptService class is responsible for implementing the core functionality to support the controller layer.
 
 ## Running the application
 
